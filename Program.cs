@@ -18,15 +18,23 @@ namespace Pine_Tree
         //     Console.WriteLine();  
         // } 
 
-        Console.WriteLine("1");
-        Console.WriteLine("22");  
-        Console.WriteLine("333");  
-        Console.WriteLine("4444");  
-        Console.WriteLine("55555");  
-        Console.WriteLine("666666");  
-        Console.WriteLine("7777777");  
-        Console.WriteLine("88888888"); 
-        Console.WriteLine("999999999");  
+        int j = 9, k;
+        for (int i = 1; i <= j; i++)
+        {
+            for (k = 1; k <= i; k++)
+                Console.Write(i);
+            Console.WriteLine();
+        }
+
+        // Console.WriteLine("1");
+        // Console.WriteLine("22");  
+        // Console.WriteLine("333");  
+        // Console.WriteLine("4444");  
+        // Console.WriteLine("55555");  
+        // Console.WriteLine("666666");  
+        // Console.WriteLine("7777777");  
+        // Console.WriteLine("88888888"); 
+        // Console.WriteLine("999999999");  
     }
   }
 }
